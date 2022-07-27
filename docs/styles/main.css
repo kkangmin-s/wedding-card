@@ -49,6 +49,7 @@ html {
     -ms-text-size-adjust: 100%;
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
 }
 
 @-ms-viewport {
@@ -485,6 +486,8 @@ mark,
     max-width: 100%;
     height: auto;
 }
+
+.img {pointer-events : none;}
 
 .img-thumbnail {
     padding: 0.25rem;
